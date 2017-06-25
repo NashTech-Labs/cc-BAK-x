@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scalastyle>
+    <name>Some test Scalastyle config</name>
+    <check class="org.scalastyle.file.HeaderMatchesChecker" enabled="true"
+           level="error">
+        <parameters>
+            <parameter name="header"><![CDATA[/*
+This is some standard boilerplate that our boring lawyers force us to add to
+every file whether we like it or not. Unfortunately, Scalastyle doesn't seem to
+treat the header "as is" and appends a blank line to it, so that it fails the
+header check. Any ideas?]]>
+            </parameter>
+        </parameters>
+    </check>
+</scalastyle>
