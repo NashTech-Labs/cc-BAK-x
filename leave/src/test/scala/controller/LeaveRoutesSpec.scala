@@ -11,6 +11,7 @@ class LeaveRoutesSpec extends WordSpec with Matchers with ScalatestRouteTest {
 
   val leaveRoutes = new LeaveRoutes
 
+
   "Routes" should {
 
     "be able to validate get call" in {
